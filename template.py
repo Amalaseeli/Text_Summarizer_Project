@@ -43,4 +43,6 @@ for filepath in list_of_files:
     else:
         logging.info(f"{filename} is already esists.")
 
-            
+
+##create new enironment
+#conda create -n textsummarizer python=3.8 -y        
